@@ -5,6 +5,8 @@ workflows:
       - runner
 jobs:
   runner:
+      docker:
+          - image: cimg/base:2021.11
     resource_class: leightjohnson93/test
     steps:
-      - run: echo "Hi I'm on Runners!"
+          - run: echo "Hi I'm on Runners!"
