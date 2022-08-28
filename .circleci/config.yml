@@ -5,7 +5,6 @@ workflows:
       - runner
 jobs:
   runner:
-    machine: true
     resource_class: leightjohnson93/test
     steps:
       - run: echo "Hi I'm on Runners!"
