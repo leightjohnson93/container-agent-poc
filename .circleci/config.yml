@@ -10,4 +10,4 @@ jobs:
     resource_class: leightjohnson93/test
     steps:
       - run: echo "Hi I'm on Runners!"
-    parallelism: 10
+    parallelism: 2
